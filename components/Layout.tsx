@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { type ReactNode } from "react";
 
-const siteTitle = "My blog";
+const siteTitle = "らいおん日記";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <header className="container mx-auto max-w-2xl px-8 py-12">
+      <header className="container mx-auto max-w-2xl py-12">
         <nav>
           <p>
             <Link href="/">
